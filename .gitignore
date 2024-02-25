@@ -1,9 +1,8 @@
 datashare*
 historic_characteristics.csv
+data/*pkl
 temp/
 *.parquet
-!historic_characteristics.parquet
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
