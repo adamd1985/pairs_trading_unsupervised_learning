@@ -1,6 +1,8 @@
 # Pairs Trading via Unsupervised Learning - Han(2022) with KMeans Optimization
 
-## Data
+The notebook with the experiments is available [here](./pairs_unsupervised.ipynb)
+
+## Dataset
 
 Data was harvested from Dacheng Xiu's web-site (https://dachxiu.chicagobooth.edu/download/datashare.zip), it is in GBs of size. To observe the data structure and do your own tests, see the provided samples from 2019 to 2021: *"./data/sample_historic_characteristics.csv"*
 Quality is questionable, and clean up was required - see notebook. The CRSP and various securities data was unavailable to me at the time of writing, there was no way to map PERMNO to SnP constituants nor make a reversal benchmark mentioned in the paper.
@@ -13,7 +15,22 @@ In abscence of adjusted return (accessible from WRDS), the momentum was used as 
 3-96. 94 Lagged Firm Characteristics (Details are in the appendix of Han(2022)) - lagged as these are released by CRSP with a delay, which we I assume is 1 month.
 97.sic2: The first two digits of the Standard Industrial Classification code on DATE
 
-# credits
+# Credits and Citations
+
+The models were inspired by the paper:
+
+```BibTeX
+@article{han2023pairs,
+  title={Pairs trading via unsupervised learning},
+  author={Han, Chulwoo and He, Zhaodong and Toh, Alenson Jun Wei},
+  journal={European Journal of Operational Research},
+  volume={307},
+  number={2},
+  pages={929--947},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
 Cite these papers if using their datasets:
 
