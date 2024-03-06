@@ -1,6 +1,7 @@
-# Pairs Trading via Unsupervised Learning - Han(2022) with KMeans Optimization
+# Pairs Trading via Unsupervised Learning
 
 The notebook with the experiments is available [here](./pairs_unsupervised.ipynb)
+The study is a replication and enhancement of the clustering proposed by Han(2022), with our own KMeans Optimization
 
 ## Dataset
 
